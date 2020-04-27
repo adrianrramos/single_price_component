@@ -1,0 +1,106 @@
+* {
+    /* border: .5px solid black; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+#main-container {
+    margin: 3vw 20vw 5vw 20vw;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 37vw;
+    box-shadow: 1px 2px 100px lightgrey;
+}
+
+#top-container {
+    height: 45%;
+    padding: 0 3vw 0 3vw;
+    color: hsl(179, 62%, 43%);
+}
+
+#main-subtitle {
+    color: hsl(71, 73%, 54%);
+}
+
+#main-description {
+    font-weight: 400;
+    line-height: 2vw;
+}
+
+#bottom-container {
+    display: flex;
+    height: 55%;
+}
+
+
+.bottom-boxes {
+    width: 50%;
+    padding: 0 3vw 0 3vw;
+    color: white;
+}
+
+
+/* =============== */
+/* BOTTOM LEFT BOX */
+/* =============== */
+
+#left-box {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+}
+
+#price-row {
+    display: flex;
+}
+
+#price-info {
+    align-self: center;
+    margin-left: 1.75vw;
+}
+
+#signup-button {
+    width: 100%;
+}
+
+button {
+    width: 90%;
+    height: 3vw;
+    border-radius: .3vw;
+    border: none;
+    box-shadow: 5px 10px 30px hsl(179, 62%, 30%);
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+}
+
+
+
+/* ================ */
+/* BOTTOM RIGHT BOX */
+/* ================ */
+
+#right-box {
+    background-color: hsl(179, 62%, 47%);
+    border-radius: 0 0 10px 0;
+}
+
+#info-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    line-height: 1.75vw;
+    font-size: 1vw;
+    opacity: .7;
+}
+
+
+footer {
+    text-align: center;
+    font-size: .9vw;
+}
