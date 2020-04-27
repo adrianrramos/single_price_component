@@ -1,5 +1,5 @@
 * {
-    /* border: .5px solid black; */
+    border: .5px solid black;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
@@ -10,28 +10,35 @@ body{
 }
 
 #main-container {
-    margin: 3vw 20vw 5vw 20vw;
-    border-radius: 10px;
+    margin: 5vw auto;
+    border-radius: 5px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 37vw;
+    width: 50vw;
+    height: 32.5vw;
     box-shadow: 1px 2px 100px lightgrey;
 }
 
 #top-container {
     height: 45%;
-    padding: 0 3vw 0 3vw;
+    padding: 0 4vw 0 4vw;
     color: hsl(179, 62%, 43%);
 }
 
+#main-title {
+    font-size: 2vw;
+}
+
 #main-subtitle {
+    font-size: 1.5vw;
     color: hsl(71, 73%, 54%);
 }
 
 #main-description {
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 2vw;
+    line-height: 1.5vw;
 }
 
 #bottom-container {
@@ -42,7 +49,7 @@ body{
 
 .bottom-boxes {
     width: 50%;
-    padding: 0 3vw 0 3vw;
+    padding: 0 4vw 0 4vw;
     color: white;
 }
 
@@ -52,17 +59,34 @@ body{
 /* =============== */
 
 #left-box {
+    display: flex;
+    flex-direction: column;
     background-color: hsl(179, 62%, 43%);
     border-radius: 0 0 0 10px;
 }
 
+#left-title {
+    font-size: 1vw;
+}
+
 #price-row {
     display: flex;
+    
+}
+
+#price {
+    font-size: 2vw;
 }
 
 #price-info {
     align-self: center;
     margin-left: 1.75vw;
+    font-size: 1vw;
+    opacity: .5;
+}
+
+#left-description {
+    font-size: 1vw;
 }
 
 #signup-button {
@@ -77,8 +101,12 @@ button {
     box-shadow: 5px 10px 30px hsl(179, 62%, 30%);
     color: white;
     background-color: hsl(71, 73%, 54%);
+    font-weight: 700;
 }
 
+button:focus {
+    outline: none;
+}
 
 
 /* ================ */
@@ -90,11 +118,15 @@ button {
     border-radius: 0 0 10px 0;
 }
 
+#right-title {
+    font-size: 1vw;
+}
+
 #info-list {
     list-style: none;
     padding: 0;
     margin-top: 0;
-    line-height: 1.75vw;
+    line-height: 1.5vw;
     font-size: 1vw;
     opacity: .7;
 }
@@ -102,5 +134,5 @@ button {
 
 footer {
     text-align: center;
-    font-size: .9vw;
+    font-size: .8vw;
 }
